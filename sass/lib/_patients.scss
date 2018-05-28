@@ -1,0 +1,41 @@
+#patients {
+	background: url(../image/testimonial_bg.jpg);
+	background-size: cover;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 550px;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 100px;
+
+	.patients-overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: rgba(9,9,9,0.9);
+		height: 550px;
+		width: 100%;
+	}
+
+	.patients-head {
+		text-align: left;
+		width: 100%;
+		padding-top: 60px;
+
+		.patients-h {
+			    // margin: 0px 0px 0px 0px;
+			    color: white;
+			    font-size: 30px;
+			    font-weight: bold;
+			    padding-top: 30px;
+		}
+
+		img {
+			margin-top: 15px;
+		}
+	}
+
+
+}

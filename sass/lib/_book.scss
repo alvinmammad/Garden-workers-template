@@ -1,0 +1,182 @@
+#book {
+	    width: 100%;
+	    text-align: center;
+	    background-color: #ffffff;
+	    margin-top: 100px;
+
+	    .book-main {
+	    	padding-bottom: 50px;
+
+	    	.book-h {
+	    		margin: 0px 0px 0px 0px;
+			    color: #111111;
+			    font-size: 30px;
+			    font-weight: 700;
+	    	}
+
+	    	img {
+	    		padding-bottom: 20px;
+	    		margin-top: 30px;
+	    	}
+
+	    	.book-p {
+	    		padding: 20px 225px;
+	    	}
+	    }
+
+	    .booking-box {
+	    	 
+	    }
+
+	    #first-input {
+	    	margin-left: 0px;
+	    	margin-top: 0px;
+
+	    	input {
+	    		width: 285px;
+	    		height: 50px;
+	    		margin-top: 30px;
+	    	    background: transparent;
+                border: 2px solid #7bddc7;
+                padding-left: 10px;
+                color: white;
+                transition: all 1s ease;
+
+                &:hover {
+                	border-color: white;
+                }
+	    	}
+	    }
+
+	     #second-input {
+	    	margin-left: 330px;
+	    	margin-top: -240px;
+
+	    	input {
+	    		width: 285px;
+	    		height: 50px;
+	    		margin-top: 30px;
+	    		background: transparent;
+                border: 2px solid #7bddc7;
+                padding-left: 10px;
+                color: white;
+                transition: all 1s ease;
+
+                &:hover {
+                	border-color: white;
+                }
+	    	}
+	    }
+
+	    #message-textarea {
+	    	margin-left: -11px;
+	    	margin-top: 35px;
+
+	    	textarea {
+	    		padding-left: 10px;
+	    		background: transparent;
+                border: 2px solid #7bddc7;
+                color: white;
+                transition: all 1s ease;
+
+                &:hover {
+                	border-color: white;
+                }
+	    	}
+	    }
+
+	    .mess-button {
+	    	display: block;
+	    	margin-top: 30px;
+	    	margin-left: 50px;
+	    	button {
+	    		width: 160px;
+			    height: 50px;
+			    float: left;
+			    color: black;
+			    border:2px solid transparent;
+			    background: #ffffff;
+			    text-align: center;
+			    line-height: 47px;
+			    border-radius: 50px;
+			    font-size: 16px;
+			    font-weight: bold;
+			    transition:all 1s ease;
+
+			    &:hover {
+			    	background: transparent;
+			    	color: white;
+			    }
+	    	}
+	    }
+
+	    #input-col {
+			margin-top: 100px;
+			margin-left: 0px;
+			// width: 200px;
+			background:#2ec8a6;
+			height: auto;
+	    }
+
+	    .box-img {
+	    	text-align: center;
+	    	padding-top: 220px;
+
+	    	.img-circle {
+			    position: relative;
+			    left: 0;
+			    width: 30px;
+			    height: 30px;
+			    border-radius: 50%;
+			    background-color: #2ec8a6;
+			    z-index: 100;
+			    margin: auto;
+			    bottom: 11px;
+			    display: block;
+			    right: 0;
+			    top: -14px;
+			    bottom: -15px;
+			    border: 6px solid #fff;
+	    	}
+	    }
+
+	    .booking-chat {
+	    	    text-align: center;	
+    			float: left;
+
+    			h1 {
+				    color: black;
+				    font-size: 24px;
+				    font-weight: 700;
+    			}
+
+    			p {
+    				    color: black;
+					    margin-top: 30px;
+					    font-size: 16px;
+					    padding: 0px 50px;
+    			}
+	    }
+
+	    .booking-btn {
+	    	margin-left: 90px;
+	    	
+	    	button {
+
+				width: 160px;
+			    height: 50px;
+			    float: left;
+			    color: white;
+			    background: #f4ab01;
+			    text-align: center;
+			    line-height: 47px;
+			    border-radius: 50px;
+			    font-size: 16px;
+			    font-weight: bold;
+			    border: 2px solid transparent;
+	    	}
+	    }
+
+    }
+
+

@@ -1,0 +1,55 @@
+@import "lib/header";
+@import "lib/navbar";
+@import "lib/slider1";
+@import "lib/wrapper";
+@import "lib/about";
+@import "lib/appoint";
+@import "lib/whychooseus";
+@import "lib/specialists";
+@import "lib/video";
+@import "lib/upcoming";
+@import "lib/counter";
+@import "lib/newsblog";
+@import "lib/patients";
+@import "lib/book";
+@import "lib/map";
+@import "lib/logos";
+@import "lib/enquiry";
+@import "lib/footer";
+body {
+	margin: 0;
+	padding: 0;
+}
+@media  (max-width: 769px) {
+    #header{
+        display: none;
+    }
+   
+
+    #slider{
+        position: relative;
+        top: 50px;
+
+        h1{
+            font-size: 20px;
+        }
+        p{
+            font-size: 14px;
+        }
+        button{
+            width: 80px ;
+        }
+       
+     
+    }
+
+    
+}
+@media  (max-width: 992px) {
+    #navbar{
+       font-size: 12px;
+    }
+    
+    
+}
+

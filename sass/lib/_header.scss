@@ -1,0 +1,49 @@
+#header {
+	line-height: 50px;
+	font-family: Tahoma;
+	font-size: 13px;
+	color:white;
+	background:rgb(46,200,166);
+	ul {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		li{
+			display: inline-block;
+			float: left;
+			margin-right: 30px;
+			list-style: none;
+			line-height: 50px;
+			div{
+				i{
+				padding:8px;
+				border:2px solid #55d0b5;
+				color:white;
+
+			}
+			
+		}
+	}
+}
+
+
+	.login {
+			font-family: Tahoma;
+			float:right;
+			text-align: center;
+			font-size: 13px;
+	}
+
+
+
+
+
+}
+
+@media(max-width:768px) {
+	#header{
+		display: none;
+	}
+}
+
+	

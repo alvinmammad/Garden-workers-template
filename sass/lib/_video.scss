@@ -1,0 +1,72 @@
+#video {
+		height: 800px;
+		background: url(../image/vedio.jpg) center;
+		background-repeat: no-repeat;
+		background-position: center 0;
+	    background-size: cover;
+	    .hos-layer {
+		background: rgba(0,0,0,0.8);
+		height: 100%;
+		width: 100%;
+		.welcome {
+			text-align: center;
+			color: white;
+			font-size: 30px;
+			font-weight: bold;
+			margin: 0;
+			padding: 0;
+			// top: 375px;
+			// position: relative;
+		}
+		.hos-icon {
+			text-align: center;
+			margin: 0;
+			padding: 0;
+			// position: relative;
+			// top: 390px;
+		}
+		.big-welcome {
+			margin: 0px;
+			color: white;
+			font-size: 40px;
+			font-weight: bold;
+			text-align: center;
+			margin-top:90px;
+			padding-top: 20px;
+			// position: relative;
+			// top: 165px;
+		}
+		.play-img {
+			padding: 200px 350px;
+		}
+		.play-p {
+			p {
+				text-align: center;
+				margin-top: -245px;
+				margin-left: -170px;
+				color: white;
+			}
+		}
+		.play-button {
+			.play-us {
+				border-radius: 20px;
+				height: 50px;
+				width: 150px;
+				background: #2ec8a6;
+				color: white;
+				border:2px solid #2ec8a6;
+				top: -50px;
+				left: 530px;
+				padding: 0;
+				position: relative;
+				transition: all .5s ease;
+
+				&:hover {
+					background: transparent;
+					border:2px solid #2ec8a6; 
+				}
+			}
+		}
+
+}
+}

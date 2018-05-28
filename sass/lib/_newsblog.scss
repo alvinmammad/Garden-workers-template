@@ -1,0 +1,145 @@
+#news-blog {
+	width: 100%;
+	height: 600px;
+	background: white;
+	margin-bottom: 300px;
+
+	.our {
+		margin: 0px 0px 0px 0px;
+	    color: #111111;
+	    font-size: 30px;
+	    font-weight: 700;
+	    text-align: center;
+	    padding-top: 100px;
+		
+	}
+
+	img {
+		left: calc(50% - 46px);
+		position: relative;	
+	}
+
+	p {
+		// margin: 0 0 10px;
+		// height: 45px;
+		margin: 0 auto;
+		// text-align: center;
+		margin-top: 30px;
+		opacity: 0.8;
+		margin-bottom: 20px;
+
+	}
+	.blog-about {
+		text-align: left;
+		width: 100%;
+		margin-top: 80px;
+
+		.blog-img {
+			position: relative;
+		    width: 100%;
+		    border: 1px solid transparent;
+		    overflow: hidden;
+
+		    img {
+		    	width: 100%;
+			    display: block;
+			    // transition: all 0.3s;
+			    border: 1px solid transparent;
+			    left: 0;
+			    transition:all 2s ease;
+
+
+			    &:hover {
+			    	transform:scale(1.2);
+			    }
+		    }
+		}
+	}
+
+	.blog-comment {
+		float: right;
+	    position: relative;
+	    margin-top: -50px;
+	    z-index: 5;
+
+
+	    ul {
+	    	    margin: 0px;
+			    padding: 0px;
+			    width: 100%;
+			    float: left;
+			    margin-right: 15px;
+
+			    li {
+			    	float: left;
+				    width: auto;
+				    list-style: none;
+				    text-align: center;
+				    line-height: 30px;
+				    margin-right: 25px;
+				    background: white;
+
+				    i {
+				    	margin-right: 10px;
+					    margin-left: 10px;
+					    margin-bottom: 5px;
+					    margin-top: 10px;
+				    }
+
+			    }
+	    }
+	}
+
+	.blog-text {
+		h1 {
+			margin-top: 30px;
+			font-size: 18px;
+		    font-weight: 600;
+		    text-transform: capitalize;
+		    color: black;
+
+
+		   
+		}
+		 a {
+		    	margin-top: 10px;
+		    	position: relative;
+		    	color:rgb(46,200,166);
+		    }
+	}
+
+	.blog-text-info {
+		ul {
+			
+			    margin: 0px;
+			    padding: 0px;
+			    width: 100%;
+			    float: left;
+			    margin-top: 10px;
+			    color: #707070;
+			    margin-bottom: 10px;
+
+			    li {
+			    	float: left;
+				    width: auto;
+				    font-size: 14px;
+				    list-style: none;
+				    margin-right: 35px;
+			    }
+
+		}
+
+		p {
+			font-size: 16px;
+		    line-height: 26px;
+		    color: #707070;
+		    margin-top: 10px;
+		    padding-bottom: 8px;
+		}
+		a {
+			color: #2ec8a6;
+    		text-decoration: none;
+
+		}
+	}
+}

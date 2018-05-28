@@ -1,0 +1,142 @@
+#hands {
+	.appointwrapper {
+	background: url(../image/appoint.jpg) 50% 0 repeat-y;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 59px;
+    margin-top: -27px;
+
+    .appoint-box-2 {
+		text-align: center;
+    	width: 100%;
+			
+			h1 {
+				font-size: 22px;
+			    color: #ffffff;
+			    font-weight: 700;
+			    margin-left: -250px;
+			}
+
+			.appoint-form {
+				text-align: left;
+    			width: auto;
+
+    			ul {
+    				margin: 0px;
+				    padding: 0px;
+				    width: 100%;
+				    float: left;
+				    margin-left: -11px;
+				    display: inline-block;
+				    list-style-type: none;
+				    &:first-child {
+				    position: relative;
+				    	    a {
+				    	    	color: #c4c4c4;
+    							padding: 0px 0px;
+				    	    }
+				    }
+				    &:last-child {
+				    	color: #c4c4c4;
+    					margin-left: 30px;
+				    }
+
+    			}
+			}
+			.headtriangle {
+
+				border-left: 42px solid transparent;
+			    border-top: 45px solid #2ec8a6;
+			    position: relative;
+			    left: 0px;
+			    top: 113px;
+
+				h2 {
+				font-size: 24px;
+			    color: #ffffff;
+			    font-weight: 700;
+			    float: left;
+			    width: 95%;			   
+			    margin-top: 35px;
+			    text-transform: capitalize;
+			    height: 45px;
+			    line-height: 1;
+			    padding-top: 6px;
+			    margin-left: 42px;
+
+			    img {
+			    	margin-left: -500px;
+			    	margin-top: -165px;
+			    	background: transparent;
+			    	width: 35px;
+			    }
+
+			    .emergency {
+			    	margin-top: 10px;
+			    	margin-left: 20px;
+
+			    	p {
+			    		margin-top: 60px;
+			    	}
+			    }
+			}
+
+			}
+			
+
+	}
+    	.appointoverlay {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background: rgba(9, 9, 9, 0.8);
+    	}
+
+    	.appoint-icon {
+			border-right: 130px solid transparent;
+		    border-top: 130px solid #2ec8a6;
+		    position: absolute;
+		    left: 15px;
+		    top: -100px;
+    		img {
+				z-index: 1;
+			    position: absolute;
+			    left: 20px;
+			    top: -100px;
+			    padding: 0;
+			    display: inline-block;
+    		}
+    	}
+
+    	.appoint-box {
+    		text-align: center;
+    		width: 100%;
+
+    		h1 {
+				font-size: 22px;
+			    color: #ffffff;
+			    font-weight: 700;
+			    margin-left: -147px;
+    		}
+
+    		p {
+    			font-size: 16px;
+			    font-family: 'Open Sans', sans-serif;
+			    color: #c4c4c4;
+			    text-transform: capitalize;
+
+			    span {
+			    	font-weight: 600;
+    				color: #ffffff;
+			    }
+    		}
+    	}
+	}
+
+	
+}

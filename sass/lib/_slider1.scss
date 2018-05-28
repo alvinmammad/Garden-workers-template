@@ -1,0 +1,112 @@
+#slider{
+	.ms{
+		position: absolute;
+		top: 180px;
+		left: 60px;
+		.medical, .services{
+			float:left;
+		}
+		.medical {
+			margin-right: 0px;
+			width: 200px;
+			height: 70px;
+			background: white;
+			text-align: center;
+			padding-top: 10px;
+			padding-left: 4px;
+			color: #2ec8a6;
+		}
+
+		.services {
+			margin-right: 20px;
+			width: 200px;
+			height: 70px;
+			background: #2ec8a6;
+			text-align: center;
+			padding-top: 10px;
+			padding-left: 4px;
+			color: white;
+		}
+	}
+	.health {
+		position: absolute;
+		top: 290px;
+		left: 60px;
+
+		.th {
+			float: left;
+			font-weight: bold;
+    		font-size: 40px;
+		}
+	}
+
+	.lorem {
+		position: absolute;
+		top: 360px;
+		left: 60px;
+
+		.ipsum {
+			float: left;
+			width: 650px;
+			height: 40px;
+		}
+	}
+
+	.carousel-control-prev-icon {
+		position: relative;
+		left: -90px;
+	}
+	.carousel-control-next-icon {
+		position: relative;
+		right: -90px;
+	}
+
+	.btns {
+		position: absolute;
+		top: 500px;
+		left: 200px;
+
+		.read, .purchase {
+			float: left;
+			border:none;
+			outline:none;
+		}
+
+		.read {
+			
+			border: #2ec8a6;
+			border-radius: 20px;
+			width: 160px;
+			height: 55px;
+			margin-right: 25px;
+			color:white;
+			background:#2ec8a6; 
+			transition:all 1s ease;
+			border:2px solid #2ec8a6;
+
+
+			&:hover {
+				background: transparent;
+				color: black;
+
+			}
+			
+		}
+
+		.purchase {
+			border: 2px solid #2ec8a6;
+			border-radius: 20px;
+			width: 160px;
+			height: 55px;
+			background: transparent;
+			color: black;
+			transition:all 1s ease;
+
+			&:hover {
+				background:#2ec8a6;
+				color: white;
+			}
+		}
+
+	}
+}

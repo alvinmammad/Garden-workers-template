@@ -1,0 +1,71 @@
+#aboutwrapper {
+margin-bottom: 70px;
+padding: 50px 0;
+	.about-text {
+
+		h3 {
+			color:#2ec8a6;
+			font-size: 22px;
+			line-height: 36px;
+			color:#2ec8a6;
+		font-size: 22px;
+		line-height: 36px;
+		}
+	}
+	.about {
+		width: 100%;
+   		img {
+    width: 90%;
+    margin-left: 50px;
+    top: 90px;
+    vertical-align: middle;
+   			}
+	}
+
+	.heading-wrapper {
+		img {
+			vertical-align: middle;
+   		 	border-style: none;
+
+		}
+	}
+
+	.proin {
+		position: relative;
+		margin-top: 40px;
+    	margin-bottom: 1rem;
+    	color: #757575;
+	}
+
+	.quis {
+		color: #757575;
+	}
+
+	.about-content {
+		float: left;
+	    width: 100%;
+	    font-size: 16px;
+	    color: #111111;
+	    text-transform: capitalize;
+	    font-family: 'Open Sans', sans-serif;
+
+	    	ul {
+	    		margin: 0px;
+			    padding: 0px;
+			    width: 100%;
+			    float: left;
+			    display: inline-block;
+			    list-style-type: none;
+
+			    li {
+			    	i {
+			    		color: #2ec8a6;
+			    		margin-right: 20px;
+			    	}
+			    	span {
+			    		font-family: Tahoma;
+			    	}
+			    }
+	    	}
+	}
+}

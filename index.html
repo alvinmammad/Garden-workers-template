@@ -1,0 +1,1651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section id="header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="top-header">
+					<ul>
+						<li>
+							<div> 
+								<i class="fas fa-map-marker"></i>
+								<span>Address : Baku/Azerbaijan</span>
+							 </div>
+						</li>
+						<li>
+							<div>
+							 <i class="fas fa-phone"></i> 
+							 <span>Call us : +994 55 9908978</span>
+							</div>
+						</li>
+						<li>
+							<div> 
+								<i class="fas fa-envelope"></i>
+								<span>Email : elvinem@code.edu.az</span> 
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="login">
+					<ul>
+						<li>
+							<div>
+								<i class="fas fa-sign-in-alt"></i>
+								<span>Log In/Sign Up</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="navbar">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-2 col-xs-12" >
+				<div class="lifeline">
+					<img src="image/lifeline.png" alt="">
+				</div>
+			</div>
+			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9"> 
+			<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a class="navbar-brand" href="#">Salam</a>
+ 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+
+  </button>
+
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">INDEX</a>
+        
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT US</a>
+        
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">SERVICES</a>
+        <div class="dropdown-content">
+        	<ul>
+        		<li>
+        			<a href="index.html">SERVICES</a>
+        		</li>
+        		<li>
+        			<a href="index.html">EVENTS</a>
+        		</li>
+        		<li>
+        			<a href="index.html">PRICING</a>
+        		</li>
+        	</ul>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">DOCTORS</a>
+        <div class="dropdown-content">
+        	<ul>
+        		<li>
+        			<a href="index.html">DOCTOR SINGLE</a>
+        		</li>
+        		<li>
+        			<a href="index.html">OUR DOCTORS</a>
+        		</li>
+        	</ul>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">GALLERY</a>
+        <div class="dropdown-content">
+        	<ul>
+        		<li>
+        			<a href="index.html">GALLERY 2</a>
+        		</li>
+        		<li>
+        			<a href="index.html">GALLERY 3</a>
+        		</li>
+        		<li>
+        			<a href="index.html">GALLERY 4</a>
+        		</li>
+        	</ul>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active blog" href="#">BLOG</a>
+        <div class="dropdown-content">
+        	<ul>
+        		<li>
+        			<a href="index.html">BLOG CATEGORY</a>
+        		</li>
+        		<li>
+        			<a href="index.html">BLOG SINGLE</a>
+        		</li>
+        	</ul>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">CONTACT</a>
+        <div class="dropdown-content">
+        	<ul>
+        		<li><a href="index.html">CONTACT US</a></li>
+        		<li><a href="index.html">APPOINTMENT</a></li>
+
+        	</ul>
+        </div>
+      </li>
+    </ul>
+    
+  </div>
+</nav> -->
+<nav class="navbar navbar-expand-md navbar-light">
+  <!-- Brand -->
+  
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">INDEX</a>
+        
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT US</a>
+        
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">SERVICES</a>
+        <div class="dropdown-content">
+          <ul>
+            <li>
+              <a href="index.html">SERVICES</a>
+            </li>
+            <li>
+              <a href="index.html">EVENTS</a>
+            </li>
+            <li>
+              <a href="index.html">PRICING</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">DOCTORS</a>
+        <div class="dropdown-content">
+          <ul>
+            <li>
+              <a href="index.html">DOCTOR SINGLE</a>
+            </li>
+            <li>
+              <a href="index.html">OUR DOCTORS</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">GALLERY</a>
+        <div class="dropdown-content">
+          <ul>
+            <li>
+              <a href="index.html">GALLERY 2</a>
+            </li>
+            <li>
+              <a href="index.html">GALLERY 3</a>
+            </li>
+            <li>
+              <a href="index.html">GALLERY 4</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active blog" href="#">BLOG</a>
+        <div class="dropdown-content">
+          <ul>
+            <li>
+              <a href="index.html">BLOG CATEGORY</a>
+            </li>
+            <li>
+              <a href="index.html">BLOG SINGLE</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">CONTACT</a>
+        <div class="dropdown-content">
+          <ul>
+            <li><a href="index.html">CONTACT US</a></li>
+            <li><a href="index.html">APPOINTMENT</a></li>
+
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>  
+</nav>
+  
+			</div>
+		</div>
+	</div>
+</section>
+
+
+  <section id="slider">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="image/slider1.jpg">
+      <div class="ms">
+        <h1 class="medical">MEDICAL</h1>
+        <h1 class="services">SERVICES</h1>
+      </div>
+      <div class="health">
+        <h1 class="th">TOTAL HEALTH CARE SOLUTION</h1>
+      </div>
+      <div class="lorem">
+        <p class="ipsum">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibdum auctor, nisi elit consequat ipsum, nec sagittis sem.</p>
+      </div>
+      <div class="btns">
+        <button class="read">READ MORE</button>
+        <button class="purchase">PURCHASE</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="image/slider2.jpg">
+      <div class="ms">
+        <h1 class="medical">MEDICAL</h1>
+        <h1 class="services">SERVICES</h1>
+      </div>
+      <div class="health">
+        <h1 class="th">TOTAL HEALTH CARE SOLUTION</h1>
+      </div>
+      <div class="lorem">
+        <p class="ipsum">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibdum auctor, nisi elit consequat ipsum, nec sagittis sem.</p>
+      </div>
+      <div class="btns">
+        <button class="read">READ MORE</button>
+        <button class="purchase">PURCHASE</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="image/slider3.jpg">
+      <div class="ms">
+        <h1 class="medical">MEDICAL</h1>
+        <h1 class="services">SERVICES</h1>
+      </div>
+      <div class="health">
+        <h1 class="th">TOTAL HEALTH CARE SOLUTION</h1>
+      </div>
+      <div class="lorem">
+        <p class="ipsum">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibdum auctor, nisi elit consequat ipsum, nec sagittis sem.</p>
+      </div>
+      <div class="btns">
+        <button class="read">READ MORE</button>
+        <button class="purchase">PURCHASE</button>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  </section>
+
+  <section id="categorywrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div class="about">
+            <div class="icon-wrapper">
+              <img src="image/icon1.png" alt="">
+            </div>
+            <div class="text-wrapper">
+              <h1>HEART SURGERY</h1>
+              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibdum auctor, nisi elit consequat ipsum, nec sagittis sem.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div class="about">
+            <div class="icon-wrapper">
+              <img src="image/icon1.png" alt="">
+            </div>
+            <div class="text-wrapper">
+              <h1>HEART SURGERY</h1>
+              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibdum auctor, nisi elit consequat ipsum, nec sagittis sem.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div class="about">
+            <div class="icon-wrapper">
+              <img src="image/icon1.png" alt="">
+            </div>
+            <div class="text-wrapper">
+              <h1>HEART SURGERY</h1>
+              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibdum auctor, nisi elit consequat ipsum, nec sagittis sem.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </section>
+
+  <section id="aboutwrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="about">
+            <img src="image/about.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+          <div class="heading-wrapper">
+            <h1 class="abouth1">ABOUT MEDICAL</h1>
+            <img src="image/line.png" alt="">
+          </div>
+          <div class="about-text">
+            <h3>Specialty Medicine with Compassion and Car Proin gravida nibh vel velit</h3>
+            <p class="proin">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, aks lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate</p>
+            <p class="quis">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit.</p>
+          </div>
+          <div class="about-content">
+            <div class="content">
+             <div class="container">
+               <div class="row">
+                 <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12" style="padding: 0">
+               <ul>
+               <li>
+                 <i class="far fa-check-square"></i>
+                 <span>Health Care For All Types</span>
+               </li>
+               <li>
+                 <i class="far fa-check-square"></i>
+                 <span>Emergency Services</span>
+               </li>
+               </ul>
+             </div>
+             <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
+              <ul>
+                <li>
+                  <i class="far fa-check-square"></i>
+                 <span>Dental Care Dentist</span>
+                </li>
+                <li>
+                   <i class="far fa-check-square"></i>
+                 <span>24/7 Services</span>
+                </li>
+              </ul>
+             </div>
+               </div>
+             </div>
+             </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="hands">
+    <div class="container">
+      <div class="appointwrapper">
+        <div class="appointoverlay"></div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            
+            <div class="appoint-icon">
+              <img src="image/clock.png" alt="">
+            </div>
+            <div class="appoint-box">
+              <h1>Opening Hours</h1>
+              <p>Monday – Friday ---------------------------
+                <span>09:00-17:00</span>
+              </p>
+              <p>
+                Saturday --------------------------------------
+                <span>09:30-17:00</span>
+              </p>
+              <p>
+                Sunday ----------------------------------------
+                <span>10:30-18:00</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="appoint-box-2">
+              <h1>BOOK AN APPOINTMENT</h1>
+              <div class="appoint-form">
+                <ul>
+                  <li>
+                    <a href="#">Email : hospital@example.com</a>
+                  </li>
+                  <li>
+                     Fax : 1800 1245 1253
+                  </li>
+                </ul>
+              </div>
+              <div class="headtriangle">
+                <h2>
+                  <img src="https://png.icons8.com/dotty/50/ffffff/hot-line.png">
+                  <div emergency style="margin-top:-105px;">
+                    <p>Emergency Call +1 800-123-132</p>                                          
+                  </div>
+
+                </h2>
+              </div>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="choose">
+    <div class="overdiv">
+      <div class="overopacity"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="chooseheading">
+              <h1>WHY CHOOSE US</h1>
+              <img src="image/line.png" alt="">
+            </div>
+            <div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         - DÖNER GELİRSE SENİNDİR , BİZ PİDE SÖYLEDİK
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+       Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, aks lorem quis bibendum auctor, nisi elit c nibh vulputate..
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          - UÇMUYORSAK NEWTON`A OLAN SAYGIMIZDAN
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, aks lorem quis bibendum auctor, nisi elit c nibh vulputate..
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         - AÇSANIZ ZENGİNLERİ YİYİN!
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, aks lorem quis bibendum auctor, nisi elit c nibh vulputate..
+      </div>
+    </div>
+          </div>
+          <div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          - ESKİDEN NEREYE BAKSAM SEN VARDIN,ŞİMDİ ARAPLAR
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+      <div class="card-body">
+        Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, aks lorem quis bibendum auctor, nisi elit c nibh vulputate..
+      </div>
+    </div>
+          </div>
+          <div class="card">
+    <div class="card-header" id="headingFive">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+         - BALIK OLSAM VAPUR ÇARPAR
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+      <div class="card-body">
+       Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, aks lorem quis bibendum auctor, nisi elit c nibh vulputate..
+      </div>
+    </div>
+          </div>
+          <div class="card">
+    <div class="card-header" id="headingSix">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          - EV İŞLERİNİ MARSLILAR YAPSIN
+        </button>
+      </h5>
+    </div>
+    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+      <div class="card-body">
+       Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, aks lorem quis bibendum auctor, nisi elit c nibh vulputate..
+      </div>
+    </div>
+          </div>
+          </div>
+        </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="image/chs_slider_img.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="image/chs_slider_img.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="image/chs_slider_img.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+          </div>
+        </div>  
+    </div>
+  </section>
+  <section id="specialists">
+    <div class="team-wrap med-top">
+       <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-lg-offset-2">
+          <div class="top-spec">
+            <h1>MEET OUR SPECIALIST</h1>
+            <img src="image/Icon_team.png" alt="line">
+            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate.</p>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">     
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="card-deck">
+        
+  <div class="card">
+    <div class="trg-time">
+      <div class="time-icon">
+          <img src="image/time.png" alt="">
+        </div>
+    </div> 
+    <img class="card-img-top" src="image/team_1.jpg" alt="Card image cap">
+    <div class="doctor-info">
+      <h1>Dr.Elvin Mammadov</h1>
+      <p>(Hepatologist)</p>
+    </div>
+    <div class="doctor-soc">
+      <ul>
+        <li>
+          <i class="fab fa-facebook-f"></i>
+        </li>
+        <li>
+          <i class="fab fa-twitter"></i>
+        </li>
+        <li>
+          <i class="fab fa-linkedin-in"></i>
+        </li>
+        <li>
+          <i class="fab fa-youtube"></i>
+        </li>
+      </ul>
+    </div>   
+  </div>
+  <div class="card">
+     <div class="trg-time">
+      <div class="time-icon">
+          <img src="image/time.png" alt="">
+        </div>
+    </div>
+    <img class="card-img-top" src="image/team_2.jpg" alt="Card image cap">
+    <div class="doctor-info">
+      <h1>Dr.Fazil Brother</h1>
+      <p>(Two-Lineist)</p>
+    </div>
+    <div class="doctor-soc">
+      <ul>
+        <li>
+          <i class="fab fa-facebook-f"></i>
+        </li>
+        <li>
+          <i class="fab fa-twitter"></i>
+        </li>
+        <li>
+          <i class="fab fa-linkedin-in"></i>
+        </li>
+        <li>
+          <i class="fab fa-youtube"></i>
+        </li>
+      </ul>
+    </div>  
+  </div>
+  <div class="card">
+     <div class="trg-time">
+      <div class="time-icon">
+          <img src="image/time.png" alt="">
+        </div>
+    </div>
+    <img class="card-img-top" src="image/team_3.jpg" alt="Card image cap">
+    <div class="doctor-info">
+      <h1>Dr.Emin Hasanov</h1>
+      <p>(Flying Turtleist)</p>
+    </div>
+    <div class="doctor-soc">
+      <ul>
+        <li>
+          <i class="fab fa-facebook-f"></i>
+        </li>
+        <li>
+          <i class="fab fa-twitter"></i>
+        </li>
+        <li>
+          <i class="fab fa-linkedin-in"></i>
+        </li>
+        <li>
+          <i class="fab fa-youtube"></i>
+        </li>
+      </ul>
+    </div>    
+  </div>
+  <div class="card">
+     <div class="trg-time">
+      <div class="time-icon">
+          <img src="image/time.png" alt="">
+        </div>
+    </div>
+    <img class="card-img-top" src="image/team_4.jpg" alt="Card image cap">
+    <div class="doctor-info">
+      <h1>Dr.Zohrali Abbasov</h1>
+      <p>(Five Manatist)</p>
+    </div>
+    <div class="doctor-soc">
+      <ul>
+        <li>
+          <i class="fab fa-facebook-f"></i>
+        </li>
+        <li>
+          <i class="fab fa-twitter"></i>
+        </li>
+        <li>
+          <i class="fab fa-linkedin-in"></i>
+        </li>
+        <li>
+          <i class="fab fa-youtube"></i>
+        </li>
+      </ul>
+    </div>    
+  </div>
+</div>
+    </div>
+    <div class="carousel-item">
+      <div class="card-deck">
+  <div class="card">
+     <div class="trg-time">
+      <div class="time-icon">
+          <img src="image/time.png" alt="">
+        </div>
+    </div>
+    <img class="card-img-top" src="image/team_1.jpg" alt="Card image cap">
+    <div class="doctor-info">
+      <h1>Dr.Elvin Mammadov</h1>
+      <p>(Hepatologist)</p>
+    </div>
+    <div class="doctor-soc">
+      <ul>
+        <li>
+          <i class="fab fa-facebook-f"></i>
+        </li>
+        <li>
+          <i class="fab fa-twitter"></i>
+        </li>
+        <li>
+          <i class="fab fa-linkedin-in"></i>
+        </li>
+        <li>
+          <i class="fab fa-youtube"></i>
+        </li>
+      </ul>
+    </div>    
+  </div>
+  <div class="card">
+     <div class="trg-time">
+      <div class="time-icon">
+          <img src="image/time.png" alt="">
+        </div>
+    </div>
+    <img class="card-img-top" src="image/team_2.jpg" alt="Card image cap">
+    <div class="doctor-info">
+      <h1>Dr.Fazil Brother</h1>
+      <p>(Two Lineist)</p>
+    </div>
+    <div class="doctor-soc">
+      <ul>
+        <li>
+          <i class="fab fa-facebook-f"></i>
+        </li>
+        <li>
+          <i class="fab fa-twitter"></i>
+        </li>
+        <li>
+          <i class="fab fa-linkedin-in"></i>
+        </li>
+        <li>
+          <i class="fab fa-youtube"></i>
+        </li>
+      </ul>
+    </div> 
+  </div>
+  <div class="card">
+     <div class="trg-time">
+      <div class="time-icon">
+          <img src="image/time.png" alt="">
+        </div>
+    </div>
+    <img class="card-img-top" src="image/team_3.jpg" alt="Card image cap">
+    <div class="doctor-info">
+      <h1>Dr.Emin Hasanov</h1>
+      <p>(Flying Turtleist)</p>
+    </div>
+    <div class="doctor-soc">
+      <ul>
+        <li>
+          <i class="fab fa-facebook-f"></i>
+        </li>
+        <li>
+          <i class="fab fa-twitter"></i>
+        </li>
+        <li>
+          <i class="fab fa-linkedin-in"></i>
+        </li>
+        <li>
+          <i class="fab fa-youtube"></i>
+        </li>
+      </ul>
+    </div>   
+  </div>
+  <div class="card">
+     <div class="trg-time">
+      <div class="time-icon">
+          <img src="image/time.png" alt="">
+        </div>
+    </div>
+    <img class="card-img-top" src="image/team_4.jpg" alt="Card image cap">
+    <div class="doctor-info">
+      <h1>Dr.Zohrali Abbasov</h1>
+      <p>(Five Manatist)</p>
+    </div>
+    <div class="doctor-soc">
+      <ul>
+        <li>
+          <i class="fab fa-facebook-f"></i>
+        </li>
+        <li>
+          <i class="fab fa-twitter"></i>
+        </li>
+        <li>
+          <i class="fab fa-linkedin-in"></i>
+        </li>
+        <li>
+          <i class="fab fa-youtube"></i>
+        </li>
+      </ul>
+    </div>   
+  </div>
+</div>
+    </div>
+    <div class="carousel-item">
+      <div class="card-deck">
+  <div class="card">
+     <div class="trg-time">
+      <div class="time-icon">
+          <img src="image/time.png" alt="">
+        </div>
+    </div>
+    <img class="card-img-top" src="image/team_1.jpg" alt="Card image cap">
+    <div class="doctor-info">
+      <h1>Dr.Elvin Mammadov</h1>
+      <p>(Hepatologist)</p>
+    </div>
+    <div class="doctor-soc">
+      <ul>
+        <li>
+          <i class="fab fa-facebook-f"></i>
+        </li>
+        <li>
+          <i class="fab fa-twitter"></i>
+        </li>
+        <li>
+          <i class="fab fa-linkedin-in"></i>
+        </li>
+        <li>
+          <i class="fab fa-youtube"></i>
+        </li>
+      </ul>
+    </div>  
+  </div>
+  <div class="card">
+     <div class="trg-time">
+      <div class="time-icon">
+          <img src="image/time.png" alt="">
+        </div>
+    </div>
+    <img class="card-img-top" src="image/team_2.jpg" alt="Card image cap">
+    <div class="doctor-info">
+      <h1>Dr.Fazil Brother</h1>
+      <p>(Two Lineist)</p>
+    </div>
+    <div class="doctor-soc">
+      <ul>
+        <li>
+          <i class="fab fa-facebook-f"></i>
+        </li>
+        <li>
+          <i class="fab fa-twitter"></i>
+        </li>
+        <li>
+          <i class="fab fa-linkedin-in"></i>
+        </li>
+        <li>
+          <i class="fab fa-youtube"></i>
+        </li>
+      </ul>
+    </div>   
+  </div>
+  <div class="card">
+     <div class="trg-time">
+      <div class="time-icon">
+          <img src="image/time.png" alt="">
+        </div>
+    </div>
+    <img class="card-img-top" src="image/team_3.jpg" alt="Card image cap">
+    <div class="doctor-info">
+      <h1>Dr.Emin Hasanov</h1>
+      <p>(Flying Turtleist)</p>
+    </div>
+    <div class="doctor-soc">
+      <ul>
+        <li>
+          <i class="fab fa-facebook-f"></i>
+        </li>
+        <li>
+          <i class="fab fa-twitter"></i>
+        </li>
+        <li>
+          <i class="fab fa-linkedin-in"></i>
+        </li>
+        <li>
+          <i class="fab fa-youtube"></i>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="card">
+     <div class="trg-time">
+      <div class="time-icon">
+          <img src="image/time.png" alt="">
+        </div>
+    </div>
+    <img class="card-img-top" src="image/team_4.jpg" alt="Card image cap">
+    <div class="doctor-info">
+      <h1>Dr.Zohrali Abbasov</h1>
+      <p>(Five Manatist)</p>
+    </div>
+    <div class="doctor-soc">
+      <ul>
+        <li>
+          <i class="fab fa-facebook-f"></i>
+        </li>
+        <li>
+          <i class="fab fa-twitter"></i>
+        </li>
+        <li>
+          <i class="fab fa-linkedin-in"></i>
+        </li>
+        <li>
+          <i class="fab fa-youtube"></i>
+        </li>
+      </ul>
+    </div>
+    
+  </div>
+</div>
+    </div>
+  </div>
+  <!-- Left and right controls -->
+  
+</div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="video">
+        <div class="hos-layer">
+           <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="welcome">
+      <h1>WELCOME TO HOSPITAL</h1>
+    </div>
+    <div class="hos-icon">
+      <img src="image/Icon_team.png" alt="">
+    </div>
+    <div class="big-welcome">
+      <h1>We Care About Everything What You Want</h1>
+    </div>
+    <div class="play-img">
+      <img src="image/Play-Icon.png" alt="">
+    </div>
+    <div class="play-p">
+      <p>play video</p>
+    </div>
+    <div class="play-button">
+      <button class="play-us">ABOUT US</button>
+    </div>
+        </div>
+      </div>
+    </div>
+        </div>
+     
+    
+  
+    
+  </section>
+
+  <section id="slide">
+    <div class="custom-container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                    <h1>UPCOMING EVENTS</h1>
+                    <img src="image/line.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="custom-container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                      <div class="custom-col">
+                            <div class="row">
+                                    <div class="col-md-5 col-sm-5">
+                                            <i class="far fa-star"></i>
+                                        <img src="image/event_1.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-7 col-sm-7">
+                                        
+                                        <h4>Together we can do so much</h4>
+                                        <ul><li><i class="fas fa-map-marker"></i>,UK</li>
+                                        <li><i class="far fa-calendar-alt"></i>24 Nov 2017</li></ul>
+                                        <p>Proin gravida nibh vel velit auctor aliuet. Aenean sollicitudin, aks lorem quis aks bibendum auctor.</p>
+                                    </div>
+                                </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                            <div class="custom-col">
+                                    <div class="row">
+                                            <div class="col-md-5 col-sm-5">
+                                                    <i class="far fa-star"></i>
+                                                <img src="image/event_2.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-7 col-sm-7">
+                                                <h4>Together we can do so much</h4>
+                                                <ul><li><i class="fas fa-map-marker"></i>,UK</li>
+                                                <li><i class="far fa-calendar-alt"></i>24 Nov 2017</li></ul>
+                                                <p>Proin gravida nibh vel velit auctor aliuet. Aenean sollicitudin, aks lorem quis aks bibendum auctor.</p>
+                                            </div>
+                                        </div>
+                              </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                            <div class="custom-col">
+                                
+                                        <div class="row">
+                                                
+                                            <div class="col-md-5 col-sm-5">
+                                                    <i class="far fa-star"></i>
+                                                <img src="image/event_3.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-7 col-sm-7">
+                                                <h4>Together we can do so much</h4>
+                                                <ul><li><i class="fas fa-map-marker"></i>,UK</li>
+                                                <li><i class="far fa-calendar-alt"></i>24 Nov 2017</li></ul>
+                                                <p>Proin gravida nibh vel velit auctor aliuet. Aenean sollicitudin, aks lorem quis aks bibendum auctor.</p>
+                                            </div>
+                                        </div>
+                              </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                            <div class="custom-col">
+                                    <div class="row">
+                                            <div class="col-md-5 col-sm-5">
+                                                    <i class="far fa-star"></i>
+                                                <img src="image/event_4.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-7 col-sm-7">
+                                                <h4>Together we can do so much</h4>
+                                                <ul><li><i class="fas fa-map-marker"></i>,UK</li>
+                                                <li><i class="far fa-calendar-alt"></i>24 Nov 2017</li></ul>
+                                                <p>Proin gravida nibh vel velit auctor aliuet. Aenean sollicitudin, aks lorem quis aks bibendum auctor.</p>
+                                            </div>
+                                        </div>
+                              </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="custom-container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                      <div class="custom-col">
+                            <div class="row">
+                                    <div class="col-md-5 col-sm-5">
+                                            <i class="far fa-star"></i>
+                                        <img src="image/event_1.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-7 col-sm-7">
+                                        
+                                        <h4>Together we can do so much</h4>
+                                        <ul><li><i class="fas fa-map-marker"></i>,UK</li>
+                                        <li><i class="far fa-calendar-alt"></i>24 Nov 2017</li></ul>
+                                        <p>Proin gravida nibh vel velit auctor aliuet. Aenean sollicitudin, aks lorem quis aks bibendum auctor.</p>
+                                    </div>
+                                </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                            <div class="custom-col">
+                                    <div class="row">
+                                            <div class="col-md-5 col-sm-5">
+                                                    <i class="far fa-star"></i>
+                                                <img src="image/event_2.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-7 col-sm-7">
+                                                <h4>Together we can do so much</h4>
+                                                <ul><li><i class="fas fa-map-marker"></i>,UK</li>
+                                                <li><i class="far fa-calendar-alt"></i>24 Nov 2017</li></ul>
+                                                <p>Proin gravida nibh vel velit auctor aliuet. Aenean sollicitudin, aks lorem quis aks bibendum auctor.</p>
+                                            </div>
+                                        </div>
+                              </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                            <div class="custom-col">
+                                <div class="img">
+                                    <img src="" alt="">
+                                </div>
+                                        <div class="row">
+                                                
+                                            <div class="col-md-5 col-sm-5">
+                                                    <i class="far fa-star"></i>
+                                                <img src="image/event_3.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-7 col-sm-7">
+                                                <h4>Together we can do so much</h4>
+                                                <ul><li><i class="fas fa-map-marker"></i>,UK</li>
+                                                <li><i class="far fa-calendar-alt"></i>24 Nov 2017</li></ul>
+                                                <p>Proin gravida nibh vel velit auctor aliuet. Aenean sollicitudin, aks lorem quis aks bibendum auctor.</p>
+                                            </div>
+                                        </div>
+                              </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                            <div class="custom-col">
+                                    <div class="row">
+                                            <div class="col-md-5 col-sm-5">
+                                                    <i class="far fa-star"></i>
+                                                <img src="image/event_4.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-7 col-sm-7">
+                                                <h4>Together we can do so much</h4>
+                                                <ul><li><i class="fas fa-map-marker"></i>,UK</li>
+                                                <li><i class="far fa-calendar-alt"></i>24 Nov 2017</li></ul>
+                                                <p>Proin gravida nibh vel velit auctor aliuet. Aenean sollicitudin, aks lorem quis aks bibendum auctor.</p>
+                                            </div>
+                                        </div>
+                              </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="custom-container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                      <div class="custom-col">
+                            <div class="row">
+                                    <div class="col-md-5 col-sm-5">
+                                            <i class="far fa-star"></i>
+                                        <img src="image/event_1.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-7 col-sm-7">
+                                        
+                                        <h4>Together we can do so much</h4>
+                                        <ul><li><i class="fas fa-map-marker"></i>,UK</li>
+                                        <li><i class="far fa-calendar-alt"></i>24 Nov 2017</li></ul>
+                                        <p>Proin gravida nibh vel velit auctor aliuet. Aenean sollicitudin, aks lorem quis aks bibendum auctor.</p>
+                                    </div>
+                                </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                            <div class="custom-col">
+                                    <div class="row">
+                                            <div class="col-md-5 col-sm-5">
+                                                    <i class="far fa-star"></i>
+                                                <img src="image/event_2.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-7 col-sm-7">
+                                                <h4>Together we can do so much</h4>
+                                                <ul><li><i class="fas fa-map-marker"></i>,UK</li>
+                                                <li><i class="far fa-calendar-alt"></i>24 Nov 2017</li></ul>
+                                                <p>Proin gravida nibh vel velit auctor aliuet. Aenean sollicitudin, aks lorem quis aks bibendum auctor.</p>
+                                            </div>
+                                        </div>
+                              </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                            <div class="custom-col">
+                                <div class="img">
+                                    <img src="" alt="">
+                                </div>
+                                        <div class="row">
+                                                
+                                            <div class="col-md-5 col-sm-5">
+                                                    <i class="far fa-star"></i>
+                                                <img src="image/event_3.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-7 col-sm-7">
+                                                <h4>Together we can do so much</h4>
+                                                <ul><li><i class="fas fa-map-marker"></i>,UK</li>
+                                                <li><i class="far fa-calendar-alt"></i>24 Nov 2017</li></ul>
+                                                <p>Proin gravida nibh vel velit auctor aliuet. Aenean sollicitudin, aks lorem quis aks bibendum auctor.</p>
+                                            </div>
+                                        </div>
+                              </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                            <div class="custom-col">
+                                    <div class="row">
+                                            <div class="col-md-5 col-sm-5">
+                                                    <i class="far fa-star"></i>
+                                                <img src="image/event_4.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-7 col-sm-7">
+                                                <h4>Together we can do so much</h4>
+                                                <ul><li><i class="fas fa-map-marker"></i>,UK</li>
+                                                <li><i class="far fa-calendar-alt"></i>24 Nov 2017</li></ul>
+                                                <p>Proin gravida nibh vel velit auctor aliuet. Aenean sollicitudin, aks lorem quis aks bibendum auctor.</p>
+                                            </div>
+                                        </div>
+                              </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+   
+      </div>
+</section>
+
+<section id="counter">
+  <div class="counter-overlay">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <div class="icon">
+            <img src="image/patient.png" alt="">
+          </div>
+          <div class="count-description">
+            <span class="timer" id="first">0</span>
+            <h5>Satisfied Patients</h5>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+           <div class="icon">
+            <img src="image/doctor.png" alt="">
+          </div>
+          <div class="count-description">
+            <span class="timer" id="second">0</span>
+            <h5>Doctor`s Team</h5>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+           <div class="icon">
+            <img src="image/success.png" alt="">
+          </div>
+          <div class="count-description">
+            <span class="timer" id="third">0</span>
+            <h5>Success Mission</h5>
+          </div>  
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+           <div class="icon">
+            <img src="image/heart.png" alt="">
+          </div>
+          <div class="count-description">
+            <span class="timer" id="fourth">0</span>
+            <h5>Successfull Surgeries</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="news-blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+        <h1 class="our">OUR NEWS & BLOG</h1>
+        <img src="image/Icon_team.png" alt="">
+        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate.</p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="blog-about">
+          <div class="blog-img">
+            <img src="image/blog_img_1.jpg" alt="">
+          </div>
+        </div>
+        <div class="blog-comment">
+          <ul>
+            <li>
+              <i class="fa fa-comment" aria-hidden="true">50</i>
+              
+            </li>
+            <li>
+              <i class="fa fa-thumbs-up" aria-hidden="true">98</i>
+              
+            </li>
+          </ul>
+        </div>
+        <div class="blog-text">
+          <h1>Blog Image Post</h1>
+          <div class="blog-text-info">
+            <ul>
+              <li>BY ADMIN</li>
+              <li>SEPT.29,2016</li>
+            </ul>
+          </div>
+          <p>Sollicitudin, lorem quis bibe u auctor, nisi elit conat ipsu, nec sagittis sem ni id elit. Duis sed odio sit amet nibh vulpute cursus.</p>
+          <a href="">Read More</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="blog-about">
+          <div class="blog-img">
+            <img src="image/blog_img_2.jpg" alt="">
+          </div>
+        </div>
+        <div class="blog-comment">
+          <ul>
+            <li>
+              <i class="fa fa-comment" aria-hidden="true">50</i>
+            </li>
+            <li>
+              <i class="fa fa-thumbs-up" aria-hidden="true">98</i>
+            </li>
+          </ul>
+        </div>
+        <div class="blog-text">
+          <h1>Blog Image Post</h1>
+          <div class="blog-text-info">
+            <ul>
+               <li>BY ADMIN</li>
+              <li>SEPT.29,2016</li>
+            </ul>
+          </div>
+          <p>Sollicitudin, lorem quis bibe u auctor, nisi elit conat ipsu, nec sagittis sem ni id elit. Duis sed odio sit amet nibh vulpute cursus.</p>
+          <a href="index.html">Read More</a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="blog-about">
+          <div class="blog-img">
+            <img src="image/blog_img_3.jpg" alt="">
+          </div>
+        </div>
+        <div class="blog-comment">
+          <ul>
+            <li>
+              <i class="fa fa-comment" aria-hidden="true">50</i>
+            </li>
+            <li>
+              <i class="fa fa-thumbs-up" aria-hidden="true">98</i>
+            </li>
+          </ul>
+        </div>
+        <div class="blog-text">
+          <h1>Blog Image Post</h1>
+          <div class="blog-text-info">
+            <ul>
+               <li>BY ADMIN</li>
+              <li>SEPT.29,2016</li>
+            </ul>
+          </div>
+          <p>Sollicitudin, lorem quis bibe u auctor, nisi elit conat ipsu, nec sagittis sem ni id elit. Duis sed odio sit amet nibh vulpute cursus.</p>
+          <a href="index.html">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="patients">
+  <div class="patients-overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="patients-head">
+          <h1 class="patients-h">What Patients Are Saying</h1>
+          <img src="image/line.png" alt="">
+        </div>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="image/ss.png" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="image/ss.png" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="image/ss.png" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="book">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="book-main">
+          <h1 class="book-h">BOOK APPOINTMENT</h1>
+          <img src="image/Icon_team.png" alt="">
+          <div class="book-p">
+            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate.
+</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="booking-box">
+      <div class="row">
+        <div class="col-md-8 col-lg-8" id="input-col">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-lg-6" id="first-input">
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="Phone">
+                <input type="text" placeholder="Date">
+              </div>
+              
+              <div class="col-md-6 col-lg-6" id="second-input">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Subject">
+                <input type="text" placeholder="Time">
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 col-lg-12" id="message-textarea">
+                <textarea name="" placeholder="Message" id="" cols="85" rows="4"></textarea>
+              </div>
+              <div class="mess-button">
+                <button>Send a Message</button>
+              </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <div class="box-img">
+            <img src="image/booking_call.png" alt="">
+            <div class="img-circle"></div>
+          </div>
+          <div class="booking-chat">
+            <h1>+1 800 383 88 90</h1>
+            <p>if urgent. Your personal case manager will ensure that you receive the best possible care.</p>
+          </div>
+          <div class="booking-btn">
+            <button>LIVE CHAT</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</section>
+
+<section id="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24297.44839236469!2d49.827308949999995!3d40.42698975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2s!4v1526248962683" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+</section>
+
+<section id="logos">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+        <ul>
+          <li class="p-1">
+            <img src="image/partner_1.png" alt="">
+          </li>
+          <li class="p-2">
+            <img src="image/partner_2.png" alt="">
+          </li>
+          <li class="p-3">
+            <img src="image/partner_3.png" alt="">
+          </li>
+          <li class="p-4">
+            <img src="image/partner_4.png" alt="">
+          </li>
+          <li class="p-5">
+            <img src="image/partner_5.png" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="enquiry">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-md-10 col-xs-12 col-sm-12">
+        <div class="main-enq">
+          <h3>YOUR FIRST STEP TOWARDS ORAL HEALTH FOR LIFE STARTS HERE :</h3>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+        <div class="enq-btn">
+          <button>Enquiry</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12 ">
+          <div class="contact">
+            <img  class="img-fluid" src="image/footer_logo.png" alt="">
+            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+            <span>Read More <i class="fas fa-long-arrow-alt-right"></i> </span>
+            <ul class="list-inline ">
+                <li class="list-inline-item"><i class="fas fa-map-marker-alt"></i> <span>Address : -512/fonia,canada</span> </li>
+                <li class="list-inline-item"><i class="fas fa-phone"></i> <span>Call us : +61 5001444-122</span> </li>
+                <li class="list-inline-item"><i class="fas fa-envelope"></i><a href="">Email : dummy@example.com</a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-12 col-sm-12 ">
+          <div class="right">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 ">
+                <div class="quickLinks">
+                  <div class="row">
+                    <div class="col-lg-5 col-md-0 col-sm-12 ">
+                      <div class="instagram">
+                          <h4>INSTAGRAM</h4>
+                          <img  src="image/line.png" alt="">
+                          <div class="galery">
+                            <div class="row">
+                              <div class="pad col-lg-4 col-md-4 col-sm- col-2">
+                                <div class="image">
+                                  <img  class="img-fluid" src="image/footer_1.jpg" alt="">
+                                </div>
+                              </div>
+                              <div class="pad col-lg-4 col-md-4 col-sm-4 col-2">
+                                <div class="image">
+                                  <img  class="img-fluid" src="image/footer_2.jpg" alt="">
+                                </div>
+                              </div>
+                              <div class="pad col-lg-4 col-md-4 col-sm-4 col-2">
+                                <div class="image">
+                                  <img  class="img-fluid" src="image/footer_3.jpg" alt="">
+                                </div>
+                              </div>
+                              <div class="pad col-lg-4 col-md-4 col-sm-4 col-2">
+                                <div class="image">
+                                  <img  class="img-fluid" src="image/footer_4.jpg" alt="">
+                                </div>
+                              </div>
+                              <div class="pad col-lg-4 col-md-4 col-sm-4 col-2">
+                                <div class="image">
+                                  <img  class="img-fluid" src="image/footer_5.jpg" alt="">
+                                </div>
+                              </div>
+                              <div class="pad col-lg-4 col-md-4 col-sm-4 col-2">
+                                <div class="image">
+                                  <img  class="img-fluid" src="image/footer_6.jpg" alt="">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                      <div class="userful">
+                          <h4>USERFUL</h4>
+                          <img  class="img-fluid" src="image/line.png" alt="">
+                          <ul class="list-inline ">
+                              <li class="list"><i class="fas fa-caret-right"></i>Home</li>
+                              <li class="list"><i class="fas fa-caret-right"></i>About Us</li>
+                              <li class="list"><i class="fas fa-caret-right"></i>Services</li>
+                              <li class="list"><i class="fas fa-caret-right"></i>Doctors</li>
+                              <li class="list"><i class="fas fa-caret-right"></i>Blog</li>
+                              <li class="list"><i class="fas fa-caret-right"></i>Contact</li>
+                          </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                      <div class="hours">
+                        <h4>OPENING HOURS</h4>
+                        <img  class="img-fluid" src="image/line.png" alt="">
+                        <p>Monday – Friday ----------- <span>09:00-17:00</span> </p>
+                        <p>Saturday ------------------- <span>09:30-17:00</span> </p>
+                        <p>Sunday --------------------- <span>10:30-18:00</span> </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-12 col-sm-12 ">
+                <div class="copyRight">
+                  Copyright © 2018- Life LineDesign by Webstrot.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+  </section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

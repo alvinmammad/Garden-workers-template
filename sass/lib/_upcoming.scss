@@ -1,0 +1,78 @@
+#slide{
+    .custom-container{
+        .row{
+          margin-right: 0;
+            .col-md-12{
+                h1{
+                    padding-top: 50px;
+                    margin: 0px 0px 0px 0px;
+                    color: #111111;
+                    font-size: 30px;
+                    font-weight: 700;
+                    margin-bottom: 10px;
+        
+                }
+                img{
+                    margin-bottom: 35px;
+                }
+            }
+            .col-md-6{
+                .custom-col{
+                    background: #f9f9f9;
+                    position: relative;
+                    margin-bottom: 60px;
+                    &::after{
+                        content: '';
+                        border-right: 80px solid transparent;
+                        border-top: 80px solid #2ec8a6;
+                        position: absolute;
+                        left: 0px;
+                        top: 0;
+                    }
+                   .row{
+                    margin-right: 0;
+                       .col-md-5{position: relative;
+                        .far{
+                            color: white;
+                            position: absolute;
+                            left: 30px;
+                            top: 10px;
+                            z-index: 1500;
+
+                        }
+                       }
+                       .col-md-7{
+                           h4{
+                            margin-top: 25px;
+                            color: black;
+                            font-size: 16px;
+                            font-family: Tahoma;
+                            font-weight: 600;
+                            text-transform: capitalize;
+                           }
+                           ul{
+                               padding: 15px 0;
+                               li{
+                                   display: inline;
+                                   padding-right: 20px;
+                               .far{
+                                   margin-right: 3px;
+
+                               }
+                               .fas{
+                                   margin-right: 3px;
+                               }
+                                }
+                           }
+                           p{
+                            color: #757575;
+                            font-size: 16px;
+                            line-height: 26px;
+                           }
+                       }
+                   }
+                }
+            }
+        }
+    }
+}
